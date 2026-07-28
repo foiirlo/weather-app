@@ -21,8 +21,14 @@ npm run android    # Android 에뮬레이터
 npm run web        # 웹 브라우저
 ```
 
-`npm run start` 실행 후 터미널에 뜨는 QR코드를 Expo Go 앱으로 스캔해도
-확인할 수 있습니다.
+`npm run start` 실행 후 터미널에 뜨는 QR코드를 Expo Go 앱으로 스캔해도 확인할 수 있습니다.
+
+### 📦 실행 가능한 APK
+
+소스 실행 없이 바로 설치해서 확인하실 수 있습니다.
+
+**[weather-app.apk 다운로드](https://github.com/foiirlo/weather-app/releases/tag/v1.0.0)**
+
 
 ## 2. 폴더 구조 및 설계 의도
 
@@ -58,6 +64,12 @@ src/
 - **도시 상세** — 현재 날씨(기온/체감온도/습도/풍속/날씨 상태), 7일 주간 예보 리스트,
   주간 최고/최저 기온 추이 미니 차트
 - **반응형 웹 레이아웃** — 웹에서는 콘텐츠 폭을 제한해 중앙 정렬, 스크롤바 숨김 처리
+<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/4b32d909-d011-498e-8e5e-d1bd9311e265" />
+<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/edddae37-a3a3-4e50-94be-45f2048115d0" />
+<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/878958e4-aa64-49d8-ad13-1fc6bd37ce49" />
+<img width="1178" height="2258" alt="image" src="https://github.com/user-attachments/assets/41ce3fc3-4454-4379-95da-e0594a93b9f8" />
+<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/ac9de358-ba53-4e78-85ec-0f5e7c915fc6" />
+
 
 ## 4. AI 도구 사용 여부
 
