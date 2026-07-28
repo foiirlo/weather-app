@@ -8,7 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 // 의존하지 않아, 웹에서 보이는 것과 동일한 스타일이 iOS/Android에서도 나옴.
 export function ScreenHeader({ navigation, options, back }: NativeStackHeaderProps) {
   return (
-    <SafeAreaView edges={['top']} className="border-b border-[#1e2d4a] bg-[#0e1629]">
+    <SafeAreaView edges={['top']} className="border-b border-[#1e2d4a]">
       <View className="h-14 flex-row items-center px-2">
         {back && (
           <Pressable onPress={navigation.goBack} hitSlop={8} className="p-2">

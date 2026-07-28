@@ -1,3 +1,4 @@
+import { ScreenHeader } from '@/src/components/ScreenHeader';
 import { Ionicons } from '@expo/vector-icons';
 import { DarkTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
@@ -5,9 +6,9 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
+import { Platform, View } from 'react-native';
 import 'react-native-reanimated';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { ScreenHeader } from '@/src/components/ScreenHeader';
 import "../global.css";
 
 // 아이콘 폰트(Ionicons)가 로드되기 전에 헤더가 그려지면 폴백 글리프가
@@ -41,14 +42,24 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <ThemeProvider value={AppTheme}>
-        <Stack
-          screenOptions={{
-            header: (props) => <ScreenHeader {...props} />,
-          }}
-        >
-          <Stack.Screen name="index" options={{ headerShown: false }} />
-          <Stack.Screen name="city/[id]" options={{ title: '' }} />
-        </Stack>
+        <View style={{ flex: 1, backgroundColor: '#080d1a' }}>
+          <View
+            style={
+              Platform.OS === 'web'
+                ? { flex: 1, width: '60%', maxWidth: '60%', alignSelf: 'center' }
+                : { flex: 1 }
+            }
+          >
+            <Stack
+              screenOptions={{
+                header: (props) => <ScreenHeader {...props} />,
+              }}
+            >
+              <Stack.Screen name="index" options={{ headerShown: false }} />
+              <Stack.Screen name="city/[id]" options={{ title: '' }} />
+            </Stack>
+          </View>
+        </View>
         <StatusBar style="light" />
       </ThemeProvider>
     </SafeAreaProvider>
