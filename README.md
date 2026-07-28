@@ -64,11 +64,13 @@ src/
 - **도시 상세** — 현재 날씨(기온/체감온도/습도/풍속/날씨 상태), 7일 주간 예보 리스트,
   주간 최고/최저 기온 추이 미니 차트
 - **반응형 웹 레이아웃** — 웹에서는 콘텐츠 폭을 제한해 중앙 정렬, 스크롤바 숨김 처리
-<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/4b32d909-d011-498e-8e5e-d1bd9311e265" />
-<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/edddae37-a3a3-4e50-94be-45f2048115d0" />
-<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/878958e4-aa64-49d8-ad13-1fc6bd37ce49" />
-<img width="1178" height="2258" alt="image" src="https://github.com/user-attachments/assets/41ce3fc3-4454-4379-95da-e0594a93b9f8" />
-<img width="1179" height="2258" alt="image" src="https://github.com/user-attachments/assets/ac9de358-ba53-4e78-85ec-0f5e7c915fc6" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/4b32d909-d011-498e-8e5e-d1bd9311e265" width="150" />
+  <img src="https://github.com/user-attachments/assets/edddae37-a3a3-4e50-94be-45f2048115d0" width="150" />
+  <img src="https://github.com/user-attachments/assets/878958e4-aa64-49d8-ad13-1fc6bd37ce49" width="150" />
+  <img src="https://github.com/user-attachments/assets/41ce3fc3-4454-4379-95da-e0594a93b9f8" width="150" />
+  <img src="https://github.com/user-attachments/assets/ac9de358-ba53-4e78-85ec-0f5e7c915fc6" width="150" />
+</p>
 
 
 ## 4. AI 도구 사용 여부
